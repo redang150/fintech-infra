@@ -69,7 +69,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "Instance type for EC2-based client nodes"
   type        = string
-  default     = "t3.medium"
+  default     = "t2.medium"
 }
 
 variable "key_name" {
