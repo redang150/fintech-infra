@@ -16,7 +16,7 @@ pipeline {
 
   environment {
     AWS_REGION = "${params.REGION ?: 'us-east-2'}"
-    GIT_REPO  = 'https://github.com/ndiforfusi/fintech-infra.git'
+    GIT_REPO  = 'https://github.com/redang150/fintech-infra.git'
   }
 
   tools {

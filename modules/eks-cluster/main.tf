@@ -81,7 +81,7 @@ module "eks" {
   ##############################################
   eks_managed_node_group_defaults = {
     ami_type       = "AL2023_x86_64_STANDARD"
-    instance_types = ["t3.medium"]
+    instance_types = ["t2.medium"]
 
     min_size     = 3
     max_size     = 5
